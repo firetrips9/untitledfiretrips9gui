@@ -49,7 +49,7 @@ Converted["_TextLabel"].ZIndex = 3
 Converted["_TextLabel"].Parent = Converted["_ayowhatyoulookingat"]
 
 Converted["_TextButton"].Font = Enum.Font.SourceSans
-Converted["_TextButton"].Text = "backdoor.exe"
+Converted["_TextButton"].Text = "LALOL Hub Backdoor (better than backdoor.exe)"
 Converted["_TextButton"].TextColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextButton"].TextScaled = true
 Converted["_TextButton"].TextSize = 14
@@ -132,7 +132,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function OWXHGWV_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function ICQTYRG_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TextButton"]
@@ -146,10 +146,10 @@ local function OWXHGWV_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.
     end
 
 	script.Parent.Activated:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))();
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))();
 	end)
 end
-local function CTNVBP_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function EVMMA_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TextButton1"]
@@ -170,7 +170,7 @@ local function CTNVBP_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.a
 		end
 	end)
 end
-local function SQMMEXI_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function UAVFU_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TextButton2"]
@@ -187,7 +187,7 @@ local function SQMMEXI_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-local function CAKHG_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function WVBGHZO_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TextButton3"]
@@ -213,7 +213,7 @@ local function CAKHG_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ay
 		end
 	end)
 end
-local function MEKZ_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function HNCIP_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TextButton4"]
@@ -230,7 +230,7 @@ local function MEKZ_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayo
 		saveinstance()
 	end)
 end
-local function ZQMHS_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
+local function YMLOP_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ayowhatyoulookingat.TextButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TextButton5"]
@@ -254,9 +254,9 @@ local function ZQMHS_fake_script() -- Fake Script: StarterGui.firetrips9guiFE.ay
 	end)
 end
 
-coroutine.wrap(OWXHGWV_fake_script)()
-coroutine.wrap(CTNVBP_fake_script)()
-coroutine.wrap(SQMMEXI_fake_script)()
-coroutine.wrap(CAKHG_fake_script)()
-coroutine.wrap(MEKZ_fake_script)()
-coroutine.wrap(ZQMHS_fake_script)()
+coroutine.wrap(ICQTYRG_fake_script)()
+coroutine.wrap(EVMMA_fake_script)()
+coroutine.wrap(UAVFU_fake_script)()
+coroutine.wrap(WVBGHZO_fake_script)()
+coroutine.wrap(HNCIP_fake_script)()
+coroutine.wrap(YMLOP_fake_script)()
